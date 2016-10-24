@@ -1,1 +1,51 @@
-<center><h1>Under Construction...</h1></center>
+<!DOCTYPEhtml>
+<html>
+
+<head>
+    <title>Jatin Balodhi</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+        .demo-card-wide.mdl-card {
+            width: 512px;
+            margin-left: 18px;
+            margin-top: 10px;
+        }
+        
+        .demo-card-wide > .mdl-card__title {
+            color: #fff;
+            height: 176px;
+            background: url('images/md.png') center / cover;
+        }
+        
+        .demo-card-wide > .mdl-card__menu {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body ng-app="myblog" ng-controller="blog_controller">
+    <!--Side-drawer-->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
+        <div class="mdl-layout__drawer"> <img src="images/jatin.jpg" class="img-circle profile_pic" alt="Cinque Terre" width="250" height="250"> <span class="mdl-layout-title">Jatin Balodhi</span>
+            <nav class="mdl-navigation"> 
+                <a class="mdl-navigation__link" href="#">About Me</a> <a class="mdl-navigation__link" href="#">Portfolio</a> <a class="mdl-navigation__link" href="#">Blog</a> </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <!--Main content-->
+                <div ng-include src="'views/main.html'"></div>
+            </div>
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <script src="script/app.js"></script>
+</body>
+
+</html>
