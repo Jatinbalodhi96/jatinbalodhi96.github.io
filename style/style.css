@@ -10,15 +10,24 @@ body{
     .page-content {
         margin-left: 160px;
     }
+    .profile_pic {
+    align-self: center;
+    margin: 25px;
+    height: 300px;
+    width: 300px;
+    }
+    .side-name{
+        font-size: 30px;
+    }
 }
 
 .mdl-layout__drawer.is-hidden {
-    width: 400px;
+    width: 600px;
     background-color: #FFEBEE;
 }
 
 .mdl-layout__drawer.is-visible {
-    width: 400px;
+    width: 600px;
     text-align: center;
     background-color: #EEEEEE;
 }
@@ -26,32 +35,30 @@ body{
 .profile_pic {
     align-self: center;
     margin: 25px;
+    height: 300px;
+    width: 300px;
+}
+
+.side-name{
+    font-size: 40px;
+    margin: 10px;
+}
+.side-text{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.mdl-layout__drawer-button{
+    margin: 10px;
+    top: 15px;
+    left: 15px;
+    
+}
+.material-icons{
+    font-weight: 300;
+    font-size: 60px;
 }
 
 a:link {
     text-decoration: none;
-}
-.demo-card-wide.mdl-card {
-    width: 512px;
-    margin-left: 18px;
-    margin-top: 10px;
-}
-        
-.demo-card-wide > .mdl-card__title {
-    color: #fff;
-    height: 176px;
-    background: url('images/md.png') center / cover;
-}
-        
-.demo-card-wide > .mdl-card__menu {
-    color: #fff;
-}
-.demo-card-square.mdl-card {
-  width: 320px;
-  height: 320px;
-    margin: 15px;
-}
-.demo-card-square > .mdl-card__title {
-  color: #fff;
-  background: url('images/jatin.jpg') bottom right 15% no-repeat #46B6AC;
 }

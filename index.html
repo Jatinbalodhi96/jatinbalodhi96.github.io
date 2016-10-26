@@ -8,31 +8,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
-    <style>
-        .demo-card-wide.mdl-card {
-            width: 512px;
-            margin-left: 18px;
-            margin-top: 10px;
-        }
-        
-        .demo-card-wide > .mdl-card__title {
-            color: #fff;
-            height: 176px;
-            background: url('images/md.png') center / cover;
-        }
-        
-        .demo-card-wide > .mdl-card__menu {
-            color: #fff;
-        }
-    </style>
+    
 </head>
 
 <body ng-app="myblog" ng-controller="blog_controller">
     <!--Side-drawer-->
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
-        <div class="mdl-layout__drawer"> <img src="images/jatin.jpg" class="img-circle profile_pic" alt="Cinque Terre" width="250" height="250"> <span class="mdl-layout-title">Jatin Balodhi</span>
+        <div class="mdl-layout__drawer"> <img src="images/jatin.jpg" class="img-circle profile_pic" alt="Cinque Terre"> <span class="mdl-layout-title side-name">Jatin Balodhi</span>
             <nav class="mdl-navigation"> 
-                <a class="mdl-navigation__link" href="#">About Me</a> <a class="mdl-navigation__link" href="#">Portfolio</a> <a class="mdl-navigation__link" href="#">Blog</a> </nav>
+                <a class="mdl-navigation__link side-text" href="#">About Me</a> <a class="mdl-navigation__link side-text" href="#">Portfolio</a> <a class="mdl-navigation__link side-text" href="#">Blog</a> </nav>
         </div>
         <main class="mdl-layout__content">
             <div class="page-content">
