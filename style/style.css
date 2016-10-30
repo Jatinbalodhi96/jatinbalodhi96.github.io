@@ -13,11 +13,22 @@ body{
     .profile_pic {
     align-self: center;
     margin: 25px;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     }
     .side-name{
         font-size: 30px;
+    }   
+    .side-text{
+        font-size: 20px;
+    }
+    .social_buttons{
+        width: 380px;
+        align-self: center;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        position: relative;
+        bottom: 5px;
     }
 }
 
@@ -39,15 +50,6 @@ body{
     width: 300px;
 }
 
-.side-name{
-    font-size: 40px;
-    margin: 10px;
-}
-.side-text{
-    font-size: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
 .mdl-layout__drawer-button{
     margin: 10px;
     top: 15px;
@@ -58,7 +60,37 @@ body{
     font-weight: 300;
     font-size: 60px;
 }
+.side-name{
+        font-size: 30px;
+    }   
+    .side-text{
+        font-size: 20px;
+    }
 
 a:link {
     text-decoration: none;
+}
+
+.social_buttons{
+    width: 380px;
+    align-self: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 5px;
+}
+.social_fb{
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+.social_git{
+    margin-left: 25px;
+    margin-right: 25px;
+    color: black;
+}
+.social_twi{
+    margin-left: 25px;
+    margin-right: 25px;
+    color: #039BE5;
 }
