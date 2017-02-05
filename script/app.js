@@ -1,5 +1,7 @@
-var app = angular.module("myblog", []);
+$(document).ready(app);
 
-app.controller("blog_controller", function($scope) {
-    
-});
+var app = function () {
+  $("#aboutmebutton").click(function () {
+    console.log('clicked');
+  });
+};

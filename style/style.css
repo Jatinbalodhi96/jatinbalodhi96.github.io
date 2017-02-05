@@ -18,7 +18,7 @@ body{
     }
     .side-name{
         font-size: 30px;
-    }   
+    }
     .side-text{
         font-size: 20px;
     }
@@ -46,15 +46,15 @@ body{
 .profile_pic {
     align-self: center;
     margin: 25px;
-    height: 285px;
-    width: 285px;
+    height: 270px;
+    width: 270px;
 }
 
 .mdl-layout__drawer-button{
     margin: 10px;
     top: 15px;
     left: 15px;
-    
+
 }
 .material-icons{
     font-weight: 300;
@@ -62,7 +62,7 @@ body{
 }
 .side-name{
         font-size: 30px;
-    }   
+    }
     .side-text{
         font-size: 20px;
     }
@@ -82,7 +82,7 @@ a:link {
 .social_fb{
     margin-left: 25px;
     margin-right: 25px;
-    
+
 }
 .social_git{
     margin-left: 25px;
@@ -93,4 +93,112 @@ a:link {
     margin-left: 25px;
     margin-right: 25px;
     color: #039BE5;
+}
+.main-content{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  margin-right: 20px;
+  background-color: transparent;
+  width: auto;
+  height: auto;
+}
+.heading{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #E3F2FD;
+  color: #fff;
+  font-size: 40px;
+  color: #616161;
+  font-family: 'Bitter', serif;
+}
+.content-1{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  font-size: 30px;
+  word-spacing: 20px;
+  line-height: 38px;
+  white-space: normal;
+  color: #EEEEEE;
+  font-family: 'Bitter', serif;
+  font-family: 'Indie Flower', cursive;
+}
+.content-2{
+  text-align: center;
+  word-spacing: 10px;
+  font-size: 15px;
+  line-height: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-family: 'Bitter', serif;
+  font-family: 'Indie Flower', cursive;
+  color: #EEEEEE;
+}
+.icon-grid{
+  margin-top: 35px;
+  margin-bottom: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.demo-card-square.mdl-card {
+  width: 100%;
+  height: 320px;
+}
+.demo-card-square > .bloodbank {
+  color: #fff;
+  background:
+    url('../images/BloodHp1.png') bottom right 15% no-repeat #46B6AC;
+}
+.demo-card-square > .bloodbank_web {
+  color: #fff;
+  background:
+    url('../images/blood_drop.png') bottom right 15% no-repeat #46B6AC;
+}
+.demo-card-square > .splasher {
+  color: #fff;
+  background:
+    url('../images/camera.png') bottom right 15% no-repeat #46B6AC;
+}
+.demo-card-square > .opensource {
+  color: #fff;
+  background:
+    url('../images/open_source.png') bottom right 15% no-repeat #46B6AC;
+}
+.demo-card-square > .monuments {
+  color: #fff;
+  background:
+    url('../images/monument.svg') bottom right 15% no-repeat #46B6AC;
+}
+.left-contact-icon {
+  font-size: 80px;
+  text-align: left;
+}
+.left-contact {
+  font-family: 'Bitter', serif;
+  font-family: 'Indie Flower', cursive;
+  font-size: 40px;
+  text-align: left;
+  padding-left: 15px;
+  background-color: #82B1FF;
+}
+.linkedin {
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 15px;
+}
+.stackoverflow {
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.fa {
+  color: black;
 }
